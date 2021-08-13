@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>CityPage</title>
+    <script src="crudAjax.js"></script>
+</head>
+<body onload="showlist();loadModalCity();getCountry()">
+<div>
+<!--    <input type="text" id="searchKey">-->
+<!--    <button type="button" onclick="search()">Search</button> <br>-->
+    <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#modalCreate">Create City</button>
+</div>
+<div id="city_list">
+
+</div>
+<div id="modal">
+
+</div>
+<div id="city_view">
+
+</div>
+</body>
+</html>
